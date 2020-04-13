@@ -29,7 +29,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'pierlo-forking-rhys'
+        app-name: 'Node-bllt33tu4ofg6'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fae0a831fc744f228a1f13f4729f4ca3 }}
+        publish-profile: ${{ secrets.azprofile }}
         package: .
